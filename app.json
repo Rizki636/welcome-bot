@@ -5,9 +5,17 @@
     "logo": "https://telegra.ph/file/64317c4eac38522d2be16.jpg",
     "repository": "https://github.com/Rizki636/welcome-bot",
     "env": {
-          "API_ID": {"description": "Token bot kamu","required": true}
-          "API_HASH": {"description": "Token bot kamu","required": true}
-          "STRING_SESSION": {"description": "Token bot kamu","required": true}
+    "API_ID": {
+      "description": "Dapatkan API KEY di web my.telegram.org. Masukan yg APP ID Telegram",
+      "required": true
+    },
+    "API_HASH": {
+      "description": "Dapatkan Api hash di web my.telegram.org.",
+      "required": true
+    },
+     "STRING_SESSION": {
+      "description": "Dapatkan String Session di Grup » https://t.me/sharinguserbot » Lalu ketik #string",
+      "required": true
     },
     "buildpacks": [
       {"url": "heroku/python"}
