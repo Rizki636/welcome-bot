@@ -1,5 +1,6 @@
-from flask import request
-from requests import get
+import Flask
+import request
+import get
 import os
 
 
