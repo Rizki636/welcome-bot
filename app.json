@@ -16,7 +16,8 @@
      "STRING_SESSION": {
       "description": "Dapatkan String Session di Grup » https://t.me/sharinguserbot » Lalu ketik #string",
       "required": true
-    },
+    }
+    }
     "buildpacks": [
       {"url": "heroku/python"}
     ],
