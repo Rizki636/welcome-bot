@@ -1,4 +1,3 @@
-import Flask
 import request
 import get
 import os
