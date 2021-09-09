@@ -1,0 +1,20 @@
+{
+    "name": "welcome bot",
+    "description": "kirim foto/dokumen/video anda, dan akan kami jadikan link",
+    "website": "https://t.me/ChannelDanaGratis",
+    "logo": "https://telegra.ph/file/64317c4eac38522d2be16.jpg",
+    "repository": "https://github.com/Rizki636/welcome-bot",
+    "env": {
+          "TOKEN": {"description": "Token bot kamu","required": true}
+    },
+    "buildpacks": [
+      {"url": "heroku/python"}
+    ],
+    "formation": {
+      "worker": {
+        "quantity": 1,
+        "size": "free"
+      }
+    },
+    "stack": "heroku-20"
+  }
